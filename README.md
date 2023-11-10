@@ -1,10 +1,10 @@
 # Label Update - Strapi Label Update
 
-The timer plugin is used to easily update the field labels.
+The label update plugin is used to easily update the field labels.
 
 ## Getting Started
 
-The plugin can be used in strapi version above 4.4 (versions that support custom fields).
+The plugin can be used in strapi version above 4.4 and node vesrion above 18.0
 
 ### To Install
 
