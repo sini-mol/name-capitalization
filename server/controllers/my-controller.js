@@ -27,7 +27,7 @@ module.exports = ({ strapi }) => ({
         await knex(tableName)
           .where("id", row?.id)
           .update({ value: JSON.stringify(jsonObject) });
-        console.log("Update successful");
+        // console.log("Update successful");
       } catch (error) {
         console.error("Update failed:", error);
         return false;
