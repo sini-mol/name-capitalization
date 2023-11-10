@@ -28,12 +28,12 @@ module.exports = ({ strapi }) => ({
           .where("id", row?.id)
           .update({ value: JSON.stringify(jsonObject) });
         console.log("Update successful");
-        return true;
       } catch (error) {
         console.error("Update failed:", error);
         return false;
       }
     }
+    return true;
   },
   processMetadata(metadata) {
     let rejectedColumns = ["id", "createdAt", "updatedAt", "publishedAt"];
